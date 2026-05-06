@@ -1,11 +1,9 @@
 name: Save Webpage
 
 on:
-  workflow_dispatch:
   push:
     paths:
       - url.txt
-      - .github/workflows/save.yml
 
 permissions:
   contents: write
